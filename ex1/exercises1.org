@@ -1,0 +1,36 @@
+#+TITLE: Network Programming in Java
+#+OPTIONS: H:4 toc:nil num:nil
+#+LANGUAGE: en
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+
+
+* Exercise 1
+Write a TCP server that listens on port 9999. When a client connects, the server
+answers by sending today's date (see [[https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html][java.util.Calendar]]), and then it closes the
+connection. Finally, write a TCP client to test your server.
+
+* Exercise 2
+Extend the previous exercise as follow.  When the client connects, it first
+sends a message with a time zone id (see [[https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html][java.util.TimeZone]]).  Then, the server
+answers by sending today's date in the requested time zone.
+
+* Exercise 3
+Re-implement Exercise 2 using the UDP protocol.
+
+* Exercise 4
+Write a program that takes a URL of a web page as parameter, downloads the
+requested page and extracts all URL it links.
+
+* Exercise 5
+Write a TCP file server that listens for incoming connections on port 2018. The
+server manages the directory ~dbox~ and allows clients to operate on files in
+that directory.  In particular, the server can answer the following requests:
+
+| Operation name | Description                                              |
+|----------------+----------------------------------------------------------|
+| ~ls~           | return the list of files inside ~dbox~                   |
+| ~cat file~     | return the content of ~file~                             |
+| ~rm file~      | remove the ~file~ and return the result of the operation |
+
+
+Test your server using the ~telnet~ command line tool.
