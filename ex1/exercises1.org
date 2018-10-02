@@ -19,7 +19,7 @@ Re-implement Exercise 2 using the UDP protocol.
 
 * Exercise 4
 Write a program that takes a URL of a web page as parameter, downloads the
-requested page and extracts all URL it links.
+requested page and extracts all URLs it links.
 
 * Exercise 5
 Write a TCP file server that listens for incoming connections on port 2018. The
