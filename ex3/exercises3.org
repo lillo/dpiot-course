@@ -12,14 +12,14 @@ Write a program that uses the REST service [[https://jsonplaceholder.typicode.co
 
 * Exercise 2
 Extend the REST service TempSensor discussed during the class with a new
-resource method for handling POST requests.  Write a REST client to test the
-service that performs both GET and POST requests using different values
+resource method for handling POST requests.  Write a REST client that tests your
+service by performing both GET and POST requests using different values
 for the parameter kind.
 
 * Exercise 3
 Write a REST resource that implements a clock that returns the current time and
 today's date (see [[https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html][java.util.Calendar]]). The client can specify a time zone for
-the output by using the parameter ~zone~.  If ~zone~ is not provided the clock
+the output by using the parameter ~zone~.  If no ~zone~ is provided, the clock
 returns the current time in GMT (see [[https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html][java.util.TimeZone]]).
 Then, write a client to test your service.
-Finally, compare your solution with the solution of [[file:~/Documents/CorsoFirenze/exercises/ex1/exercises1.org][Exercise 2 of problem set 1]].
+Finally, compare your solution with the solution of [[../ex1/exercises1.org][Exercise 2 of problem set 1]].
