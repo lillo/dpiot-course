@@ -10,14 +10,14 @@ can use the communication mechanisms you prefer.  Test your implementation using
 a small network of 3-4 nodes.
 
 *Hint:* Before writing the code, think how you can set up the topology of your
- network and how implement the /spontaneous/ event that starts the protocol.
+ network and how to implement the /spontaneous/ event that starts the protocol.
 * Exercise 2
 Implement in Java the *Flood* algorithm for /generic topologies/.  You can use
 the communication mechanisms you prefer.  Test your implementation using a small
 network of 3-4 nodes.
 
 *Hint:* Before writing the code, think how you can set up the topology of your
- network and how implement the /spontaneous/ event that starts the protocol.
+ network and how to implement the /spontaneous/ event that starts the protocol.
 
 * Exercise 3
 Implement in Java the *Wake-Up* protocol with multiple initiators. You can use
@@ -25,4 +25,4 @@ the communication mechanisms you prefer.  Test your implementation using with a
 small network of 3-4 nodes.
 
 *Hint:* Before writing the code, think how you can set up the topology of your
- network and how implement the /spontaneous/ event that starts the protocol.
+ network and how to implement the /spontaneous/ event that starts the protocol.
