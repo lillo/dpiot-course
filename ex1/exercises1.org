@@ -26,11 +26,26 @@ Write a TCP file server that listens for incoming connections on port 2018. The
 server manages the directory ~dbox~ and allows clients to operate on files in
 that directory.  In particular, the server can answer the following requests:
 
-| Operation name | Description                                              |
-|----------------+----------------------------------------------------------|
-| ~ls~           | return the list of files inside ~dbox~                   |
-| ~cat file~     | return the content of ~file~                             |
-| ~rm file~      | remove the ~file~ and return the result of the operation |
+| Operation name | Description                                                              |
+|----------------+--------------------------------------------------------------------------|
+| ~ls~           | return the list of files inside ~dbox~                                   |
+| ~cat file~     | return the content of ~file~                                             |
+| ~rm file~      | remove the ~file~ and return the result of the operation                 |
+| ~get file~     | download the ~file~ and save it in the current directory                 |
+| ~info file~    | return info about the file, e.g., its size, the last accessed date, etc. |
 
 
 Test your server using the ~telnet~ command line tool.
+
+* Exercise 6
+Write a TCP server that allows two clients to play the [[https://en.wikipedia.org/wiki/Tic-tac-toe][tic-tac-toe]] game.  The
+server should maintain the state of the board, manage the round of the game,
+deal with the connection/disconnection of clients (e.g. what happens when a
+client disconnects during the mach?), inform the player of the moves of the
+opponent and indicate the result of the game when it is over.
+
+Finally, write the correspoding client application.
+
+*Hint*: Before starting the implementation, design the communication protocol
+ which the server and the client should adhere to. In particular, design which
+ messages client and server, their format and data that they carry.

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-10-02 mar 11:08 -->
+<!-- 2019-09-19 gio 11:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Network Programming in Java</title>
@@ -186,7 +186,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -233,9 +233,9 @@ for the JavaScript code in this tag.
 <h1 class="title">Network Programming in Java</h1>
 
 
-<div id="outline-container-orgd827ca0" class="outline-2">
-<h2 id="orgd827ca0">Exercise 1</h2>
-<div class="outline-text-2" id="text-orgd827ca0">
+<div id="outline-container-org0f32890" class="outline-2">
+<h2 id="org0f32890">Exercise 1</h2>
+<div class="outline-text-2" id="text-org0f32890">
 <p>
 Write a TCP server that listens on port 9999. When a client connects, the server
 answers by sending today's date (see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Calendar.html">java.util.Calendar</a>), and then it closes the
@@ -244,9 +244,9 @@ connection. Finally, write a TCP client to test your server.
 </div>
 </div>
 
-<div id="outline-container-orgdfc40f0" class="outline-2">
-<h2 id="orgdfc40f0">Exercise 2</h2>
-<div class="outline-text-2" id="text-orgdfc40f0">
+<div id="outline-container-org3353f5f" class="outline-2">
+<h2 id="org3353f5f">Exercise 2</h2>
+<div class="outline-text-2" id="text-org3353f5f">
 <p>
 Extend the previous exercise as follow.  When the client connects, it first
 sends a message with a time zone id (see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html">java.util.TimeZone</a>).  Then, the server
@@ -255,18 +255,18 @@ answers by sending today's date in the requested time zone.
 </div>
 </div>
 
-<div id="outline-container-org96ac540" class="outline-2">
-<h2 id="org96ac540">Exercise 3</h2>
-<div class="outline-text-2" id="text-org96ac540">
+<div id="outline-container-orgca4fcd8" class="outline-2">
+<h2 id="orgca4fcd8">Exercise 3</h2>
+<div class="outline-text-2" id="text-orgca4fcd8">
 <p>
 Re-implement Exercise 2 using the UDP protocol.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgb9ab0fc" class="outline-2">
-<h2 id="orgb9ab0fc">Exercise 4</h2>
-<div class="outline-text-2" id="text-orgb9ab0fc">
+<div id="outline-container-orge218e24" class="outline-2">
+<h2 id="orge218e24">Exercise 4</h2>
+<div class="outline-text-2" id="text-orge218e24">
 <p>
 Write a program that takes a URL of a web page as parameter, downloads the
 requested page and extracts all URLs it links.
@@ -274,9 +274,9 @@ requested page and extracts all URLs it links.
 </div>
 </div>
 
-<div id="outline-container-org7b967a6" class="outline-2">
-<h2 id="org7b967a6">Exercise 5</h2>
-<div class="outline-text-2" id="text-org7b967a6">
+<div id="outline-container-orgd42669e" class="outline-2">
+<h2 id="orgd42669e">Exercise 5</h2>
+<div class="outline-text-2" id="text-orgd42669e">
 <p>
 Write a TCP file server that listens for incoming connections on port 2018. The
 server manages the directory <code>dbox</code> and allows clients to operate on files in
@@ -312,6 +312,16 @@ that directory.  In particular, the server can answer the following requests:
 <td class="org-left"><code>rm file</code></td>
 <td class="org-left">remove the <code>file</code> and return the result of the operation</td>
 </tr>
+
+<tr>
+<td class="org-left"><code>get file</code></td>
+<td class="org-left">download the <code>file</code> and save it in the current directory</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>info file</code></td>
+<td class="org-left">return info about the file, e.g., its size, the last accessed date, etc.</td>
+</tr>
 </tbody>
 </table>
 
@@ -321,10 +331,33 @@ Test your server using the <code>telnet</code> command line tool.
 </p>
 </div>
 </div>
+
+<div id="outline-container-orgfe36091" class="outline-2">
+<h2 id="orgfe36091">Exercise 6</h2>
+<div class="outline-text-2" id="text-orgfe36091">
+<p>
+Write a TCP server that allows two clients to play the <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">tic-tac-toe</a> game.  The
+server should maintain the state of the board, manage the round of the game,
+deal with the connection/disconnection of clients (e.g. what happens when a
+client disconnects during the mach?), inform the player of the moves of the
+opponent and indicate the result of the game when it is over.
+</p>
+
+<p>
+Finally, write the correspoding client application.
+</p>
+
+<p>
+<b>Hint</b>: Before starting the implementation, design the communication protocol
+ which the server and the client should adhere to. In particular, design which
+ messages client and server, their format and data that they carry.
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Letterio Galletta</p>
-<p class="date">Created: 2018-10-02 mar 11:08</p>
+<p class="date">Created: 2019-09-19 gio 11:47</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
