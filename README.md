@@ -35,7 +35,8 @@ Remember to set up a Java programming environement based on [Apache Maven](https
 | Date  | Topics | Assignments| 
 | ------|------- |------------|
 | 10/1  | Socket programming in Java    |  [Exercises 1](ex1/exercises1.org)  |
-| 10/8  | ...    | ...    | ...       | ...           
+| 10/8  | Network programming in Java   |  [Exercises 2](ex2/exercises2.org)  |
+| 10/15 | ...       | ...         |  
 
 ## Online resources
 * [The Java Tutorial](https://docs.oracle.com/javase/tutorial/index.html)
