@@ -1,0 +1,28 @@
+#+TITLE: Java Remote Method Invocation
+#+OPTIONS: H:4 toc:nil num:nil
+#+LANGUAGE: en
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+
+
+* Exercise 1
+Re-implement the clinical record database of [[../ex2/exercises2.org][Exercise 1 of problem set 2]] using
+Java RMI.  Compare and discuss the implementation using sockets and the one
+using RMI Which solution is shorter in term of line of code?  Which solution is
+easier to understand?
+
+* Exercise 2
+Re-implement the service TempSensor of [[../ex3/exercises3.org][problem set 3]] using Java RMI.  Then,
+discuss and compare the implementation you made in Jersey with the one in RMI.
+Which solution is shorter in term of line of code?  Which solution is easier to
+understand?  Which solution is more interoperable? Provide an example.
+
+* Exercise 3
+Write a simple RMI service that implements a simple forum.  The service allows
+users to open a new discussion on a topic, and to read and post new messages in
+a discussion. Furthermore, the forum allows users to express their interests on
+some topics. When a new message is posted the system notifies all the users
+interested in the topic of the message.  Finally, write a client to test your
+implementation.
+
+*Suggestion:* Before writing any code, identify how many remote objects you
+ need and their interfaces.
