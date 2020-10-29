@@ -36,9 +36,10 @@ Remember to set up a Java programming environement based on [Apache Maven](https
 | ------|------- |------------|
 | 10/1  | Socket programming in Java    |  [Exercises 1](ex1/exercises1.org)  |
 | 10/8  | Network programming in Java   |  [Exercises 2](ex2/exercises2.org)  |
-| 10/15 | REST services in Jersey       | [Exercises 3](ex3/exercises3.org)   |
-| 10/22 | Java Remote Method Invocation | [Exercises 4](ex4/exercises4.org)   |
-| ...   | .... | ... |
+| 10/15 | REST services in Jersey       |  [Exercises 3](ex3/exercises3.org)  |
+| 10/22 | Java Remote Method Invocation |  [Exercises 4](ex4/exercises4.org)  |
+| 10/29 | gRPC in Java                  |  [Exercises 5](ex5/exercises5.org)  |
+| 11/5  | ...  | ... |
 
 ## Online resources
 * [The Java Tutorial](https://docs.oracle.com/javase/tutorial/index.html)
