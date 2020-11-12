@@ -1,0 +1,31 @@
+#+TITLE: Basic Distributed Algorithms
+#+OPTIONS: H:4 toc:nil num:nil
+#+LANGUAGE: en
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+
+
+* Exercise 1
+Implement using [[https://jbotsim.io/][JBotSim]] simulator the version of *Flood* algorithm for
+  /complete network/.  Test your implementation in the simulator using a small
+  network.
+
+* Exercise 2
+Implement using [[https://jbotsim.io/][JBotSim]] the *Flood* algorithm for /generic topologies/.  You
+can use the communication mechanisms you prefer. Test your implementation in the
+simulator using a small network.
+
+* Exercise 3
+Implement using [[https://jbotsim.io/][JBotSim]] the *Wake-Up* protocol with multiple initiators.
+Test your implementation using with a small network.
+
+* Exercise 4
+Implement using  [[https://jbotsim.io/][JBotSim]] the DF protocol with a single initiator.
+Test your implementation using a small network.
+
+* Exercise 5
+Implement using  [[https://jbotsim.io/][JBotSim]] the a protocol that computes a minimum in a network with a tree topology.
+Test your implementation using a small network.
+
+*Hint:* Before writing the code, think how you can implement the /spontaneous/
+ event for multiple initiators using the method [[https://jbotsim.io/javadoc/1.1.1/io/jbotsim/core/Topology.html#addStartListener-io.jbotsim.core.event.StartListener-][addStartListener]] of the class
+ ~Topology~, and the interface [[https://jbotsim.io/javadoc/1.1.1/io/jbotsim/core/event/StartListener.html][StartListener]].
