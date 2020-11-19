@@ -49,3 +49,6 @@ Remember to set up a Java programming environement based on [Apache Maven](https
 * [Package java.net](https://docs.oracle.com/javase/8/docs/api/java/net/package-summary.html)
 * An [interactive tutorial](https://learngitbranching.js.org/) on using `git`
 * [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+* [The JBotSim Library](https://jbotsim.io/)
+* [A quick tour of JBotSim](https://jbotsim.io/?p=examples/helloworld)
+* [The JBotSim Documentation](https://jbotsim.io/javadoc/1.2.0/index.html?overview-summary.html)
