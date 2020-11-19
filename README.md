@@ -40,7 +40,8 @@ Remember to set up a Java programming environement based on [Apache Maven](https
 | 10/22 | Java Remote Method Invocation |  [Exercises 4](ex4/exercises4.org)  |
 | 10/29 | gRPC in Java                  |  [Exercises 5](ex5/exercises5.org)  |
 | 11/12 | Basic distributed algorithm   |  [Exercises 6](ex6/exercises6.org)  |
-| 11/19 | ... | ... |
+| 11/19 | Algorithms for leader election|  [Exercises 7](ex7/exercises7.org)  |
+| 11/26 | ... | ... |
 
 ## Online resources
 * [The Java Tutorial](https://docs.oracle.com/javase/tutorial/index.html)
