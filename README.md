@@ -41,7 +41,7 @@ Remember to set up a Java programming environnement based on [Apache Maven](http
 | 10/29 | gRPC in Java                  |  [Exercises 5](ex5/exercises5.org)  |
 | 11/12 | Basic distributed algorithm   |  [Exercises 6](ex6/exercises6.org)  |
 | 11/19 | Algorithms for leader election|  [Exercises 7](ex7/exercises7.org)  |
-| 11/26 | Protocol MQTT                 |  [Exercises 8](ex7/exercises8.org)  |
+| 11/26 | Protocol MQTT                 |  [Exercises 8](ex8/exercises8.org)  |
 | 12/03 | ... | ... |
 
 ## Online resources
